@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+Armenian:wght@100..900&family=Reggae+One&family=Russo+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    backdrop-filter: blur(2.5px);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Japan {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.Korean {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.Yerevan{
+      font-family: "Noto Serif Armenian", serif;
+}
+.Russian {
+  font-family: "Russo One", sans-serif;
+  font-weight:500;
+}
+.Wrapflex{
+    display: flex;
+    justify-content: space-between;
+}
+.Wrapflex-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+}
+.Wrapflex-left a {
+    margin-top: 12px;
+    padding: 15px 40px;
+    background: rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+.Wrapflex-left{
+ font-size: 35px;
+    font-weight: 500;
+}

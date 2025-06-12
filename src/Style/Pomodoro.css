@@ -1,0 +1,43 @@
+.pomodod{
+    width:50vw;
+    height:100vh;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7px);
+    background-color:rgba(0, 0, 0, 0.055) ;
+}
+.Clocker{
+font-size: 200px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+
+}
+.pomodod p{
+font-size: 40px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+text-align: center;
+}
+button{
+    padding: 10px 0px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+   background-color: transparent;
+   border: 1px solid white;
+   font-weight: 700;
+   font-size: 35px;
+  margin-left: 50px;
+  backdrop-filter: blur(2px);
+
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.507);
+}
